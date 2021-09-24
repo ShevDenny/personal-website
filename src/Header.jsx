@@ -1,3 +1,5 @@
+import {NavLink} from 'react-router-dom';
+
 export default function Header() {
 
     return (
@@ -5,7 +7,8 @@ export default function Header() {
             <header className="header">
                 Shevon Denny
                 <nav className="nav-bar">
-
+                    <NavLink className="nav-links" to="/">Home</NavLink>
+                    <NavLink className="nav-links" to="/portfolio">Portfolio</NavLink>
                 </nav>
             </header>
 
