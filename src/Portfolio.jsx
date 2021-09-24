@@ -1,6 +1,6 @@
-import artsy from './artsy.png';
-import hairSuit from './hairSuit.png';
-import letshang from './letshang.png';
+import artsy from './photos/artsy.png';
+import hairSuit from './photos/hairSuit.png';
+import letshang from './photos/letshang.png';
 
 
 export default function Portfolio(){

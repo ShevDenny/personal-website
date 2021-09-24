@@ -1,4 +1,5 @@
 import {Route, Switch} from 'react-router-dom'
+import 'semantic-ui-css/semantic.min.css'
 import './App.css';
 import Header from './Header';
 import Footer from './Footer';
@@ -9,7 +10,6 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Footer />
       <Switch>
         <Route exact path="/">
           <About />
@@ -18,6 +18,7 @@ function App() {
           <Portfolio />
         </Route>
       </Switch>
+      <Footer />
       
 
       

@@ -2,7 +2,8 @@ export default function Footer() {
     
     return (
         <div className="footer">
-            Created By: Shevon Denny
+            <p>Created By: Shevon Denny</p>
+            <p>Contact: Shevoncdenny@gmail.com</p>
         </div>
     )
 }
