@@ -8,7 +8,7 @@ export default function Portfolio(){
     return (
         <div className="portfolio">
 
-            <p>Creating has always been somethingI've enjoyed doing. To see an idea come to life is fulfulling and exciting! Here are a few project that I've created and take pride in. </p>
+            <p className="portfolio-para" >Creating has always been somethingI've enjoyed doing. To see an idea come to life is fulfulling and exciting! Here are a few project that I've created and take pride in. </p>
 
             <div className="projects">
 
