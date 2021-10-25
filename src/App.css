@@ -51,13 +51,11 @@
   padding: 2%;
   display: inline-block;
   margin-top: 1%;
-
 }
 
 nav h2 {
   color: var(--primary-color);
 }
-
 
 nav {
   position: sticky;
@@ -114,6 +112,7 @@ a:hover {
   gap: 2.5rem;
   max-width: 68.75rem;
   margin: auto;
+  margin-top: 5.5rem;
 
 }
 
