@@ -1,15 +1,22 @@
-import {NavLink} from 'react-router-dom';
-
 export default function Header() {
 
     return (
         <div className="header-div">
             <header className="header">
-                <p>Shevon Denny</p> 
                 <nav className="nav-bar">
-                    <NavLink className="nav-links" to="/">Home</NavLink>
-                    <NavLink className="nav-links" to="/about">About Me</NavLink>
-                    <NavLink className="nav-links" to="/portfolio">Portfolio</NavLink>
+                    <h2>Shevon Denny | Fullstack Developer </h2> 
+                    <ul className="nav-nav"> 
+                        <li><a className="nav-links" href="/">Home</a></li>
+                        <li><a className="nav-links" href="/about">About Me</a></li>
+                        <li><a className="nav-links" href="/portfolio">Portfolio</a></li>
+                    </ul>
+                    <button className="burger-menu" id="burger-menu">
+                        <div className="container" onclick="myFunction(this)">
+                            <div className="bar1"></div>
+                            <div className="bar2"></div>
+                            <div className="bar3"></div>
+                        </div>
+                    </button>
                 </nav>
             </header>
 
