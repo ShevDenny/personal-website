@@ -1,4 +1,12 @@
 export default function Footer() {
+
+    function handleScroll(){
+        window.scrollTo({
+            top: 0,
+            left: 0,
+            behavior: "smooth"
+        })
+    }
     
     return (
         <div className="footer">
@@ -31,6 +39,18 @@ export default function Footer() {
                     />
                 </a>
             </div>
+            {/* <i 
+                className="scroll-up"
+                onClick={handleScroll} 
+                ><img 
+                    // src="https://img.icons8.com/ios-glyphs/20/000000/double-up--v2.gif"
+                    src="https://img.icons8.com/ultraviolet/40/000000/upload--v2.gif"
+                    className="scroll-icon" 
+                    alt="scroll-up"
+                />
+              
+            
+            </i> */}
         </div>
     )
 }

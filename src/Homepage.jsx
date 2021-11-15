@@ -1,13 +1,13 @@
 import Projects from './Projects'
 import Contact from './Contact'
-import profilepic from './photos/profilepic.jpeg';
+import aboutme from './photos/aboutme.jpeg';
 
 export default function Homepage() {
 
     return (
         <div>
             <div className="homepage">
-                <img className="home-pic" src={profilepic} alt="profile-pic" loading="lazy"
+                <img className="home-pic" src={aboutme} alt="profile-pic" loading="lazy"
                 />
                 <div className="home-info">
                     <h3 className="home-about">About Me</h3>

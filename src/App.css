@@ -1,6 +1,6 @@
 
 :root {
-  /* --font-family: "Roboto", sans-serf; */
+  --font-family: "Roboto", sans-serf;
   --normal-font: 400;
   --bold-font: 700;
   --bolder-font: 900;
@@ -20,18 +20,23 @@
   scroll-behavior: smooth;
 }
 
+@media screen and (min-width: 720px) {
+  
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* body {
+body {
   font-family: var(--font-family);
-} */
+}
 
-nav h2 {
+nav h4 {
   color: var(--primary-color);
+  font-weight: var(--normal-font);
 }
 
 nav {
@@ -44,7 +49,7 @@ nav {
   justify-content: space-between;
   padding: 1.5rem 3.5rem;
   font-weight: var(--bold-font);
-  background-color: var(--bg-color);
+  background-color: white;
   box-shadow: 0 3px 5px var(--primary-shadow);
 
 }
@@ -68,8 +73,12 @@ nav ul {
   transition: var(--transition);
 }
 
+.name {
+  color: var(--primary-color);
+}
+
 a:hover {
-  color: var(--secondary-color);
+  color: black;
   border-bottom: 2px solid var(--secondary-color);
 }
 
@@ -165,7 +174,7 @@ a:hover {
 }
 
 .contact-form-container {
-  max-width: 25.75rem;
+  max-width: 20.75rem;
   margin: 0 auto;
   padding: 0.8rem;
   border-radius: 5px;
@@ -177,7 +186,7 @@ a:hover {
   font-weight: var(--bold-font);
   color: var(--primary-color);
 }
-.contact-form-container {
+.contact-form-container textarea {
   min-height: 6.25rem;
   font-size: 14px;
 }
@@ -234,15 +243,32 @@ a:hover {
   position: fixed;
   right: 1%;
   bottom: 50%;
-  
-  
+}
+
+.scroll-up {
+  position: fixed;
+  right: 0.5%;
+  bottom: 3%;
+  cursor: pointer;
+}
+
+.scroll-icon {
+  width: 3rem;
+  height: 3rem;
+  background-color: transparent;
+  border: round transparent;
+}
+
+.about-title {
+  text-align: center;
+  margin-top: 20%;
 }
 
 .about-pic {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  /* width: 50%; */
 }
 
 .about-me {
@@ -255,4 +281,16 @@ a:hover {
 
 .projects {
   padding: 5%;
+}
+
+.project-demo{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.projects {
+  text-align: center;
+  width: 100%;
+  height: 100%;
 }
