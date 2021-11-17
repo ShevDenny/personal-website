@@ -111,6 +111,8 @@ ul {
 
 .home-pic{
   height: 25rem;
+  border-radius: 40px;
+  box-shadow: 0 3px 10px var(--secondary-shadow);
   /* width: rem; */
 
 }
@@ -290,13 +292,16 @@ ul {
 
 .about-title {
   text-align: center;
-  margin-top: 20%;
+  padding-top: 3rem;
 }
 
 .about-pic {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 2rem;
+  border-radius: 40px;
+  box-shadow: 0 3px 10px var(--secondary-shadow);
 }
 
 .about-me {

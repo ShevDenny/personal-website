@@ -1,8 +1,3 @@
-import artsy from '../photos/artsy.png';
-import hairSuit from '../photos/hairSuit.png';
-import letshang from '../photos/letshang.png';
-
-
 export default function Portfolio(){
     
     return (
@@ -20,12 +15,7 @@ export default function Portfolio(){
                         loading="lazy">
                     </iframe>
                 </div>
-                <p>Your hairstlye can be used as a form of expression. I love experimenting with different hairstyles that will match my mood at the moment or even an outfit. So if you're like me and like to experiment then you know the struggles of finding a hair salon that suits you and your hair needs. Thats where HairSuit comes in. As a user you'll be able to do the following:
-                    - Sign in or create an account using local storage and JWT tokens to store user data.
-                    - Search for a salon based on specialty or salon name ex. "curls", "The Salon by Ursula Stephen"
-                    - View Salon information such as address, customer reviews, services and brief description of salon.
-                    - Create/delete an appointment
-                    - Create/delete a review with a photo using active storage
+                <p>Your hairstlye can be used as a form of expression and it's important to find a Salon that suits you and your hair needs!
                 </p>
                 
             </div>
@@ -50,8 +40,6 @@ export default function Portfolio(){
             <div className="projects">
 
                 <h3 className="project-title">Artsy</h3>
-                <p>An Art Gallery finder </p>
-            
                 <div className="project-demo">
                     <iframe 
                         className="project" 
@@ -61,6 +49,8 @@ export default function Portfolio(){
                         loading="lazy">
                     </iframe>
                 </div>
+                <p>View upcoming exhibitions at selected galleries.</p>
+                
             </div>
         </div>
     )
