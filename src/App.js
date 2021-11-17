@@ -1,13 +1,17 @@
-import {Route, Switch} from 'react-router-dom'
+import {Route, Switch} from 'react-router-dom';
+import { useState } from 'react';
 import 'semantic-ui-css/semantic.min.css'
 import './App.css';
-import Header from './Header';
-import Footer from './Footer';
-import Homepage from './Homepage';
-import About from './About';
-import Portfolio from './Portfolio';
+import Header from './Components/Header';
+import Footer from './Components/Footer';
+import Homepage from './Components/Homepage';
+import About from './Components/About';
+import Portfolio from './Components/Portfolio';
+import Contact from './Components/Contact';
 
 function App() {
+  const [contact, setContact] = useState(false)
+
   return (
     <div className="App">
       
@@ -23,6 +27,14 @@ function App() {
           <Portfolio />
         </Route>
       </Switch>
+      <div className="contact-btn-container">
+        <button 
+          onClick={() => setContact(!contact)}
+          className="contact-btn">
+          Contact me
+        </button>
+        {contact ? <Contact /> : null}
+      </div>
       <Footer />
     
     </div>

@@ -1,4 +1,4 @@
-import aboutme from './photos/aboutme.jpeg';
+import aboutme from '../photos/aboutme.jpeg';
 
 export default function About() {
 

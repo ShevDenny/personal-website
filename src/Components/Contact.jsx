@@ -2,7 +2,7 @@ export default function Contact(){
 
     return (
         <div className="contact">
-            <h3>Wanna talk? Shoot me an Email</h3>
+            <h3>Shoot me an Email!</h3> 
             <div className="contact-form-container">
                 <div className="contact-form">
                     <form  action="https://formspree.io/f/xyylavyg" className="form-contact" method="POST" target="_blank">

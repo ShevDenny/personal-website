@@ -1,6 +1,5 @@
-import Projects from './Projects'
-import Contact from './Contact'
-import aboutme from './photos/aboutme.jpeg';
+import Projects from './Projects';
+import aboutme from '../photos/aboutme.jpeg';
 
 export default function Homepage() {
 
@@ -10,8 +9,7 @@ export default function Homepage() {
                 <img className="home-pic" src={aboutme} alt="profile-pic" loading="lazy"
                 />
                 <div className="home-info">
-                    <h3 className="home-about">About Me</h3>
-                    <p className="brief-about">Hi! I'm a Full-Stack Web Developer exerienced with JavaScript, React, Ruby, Ruby on Rails, HTML, CSS, SQLite and Postgresql. 
+                    <p className="brief-about">Hi and welcome! I'm a Full-Stack software engineer exerienced with JavaScript, React, Ruby, Ruby on Rails, Python, Node.js, HTML, CSS, SQLite and Postgresql. 
                     </p>
                 </div>
             </div>
@@ -57,7 +55,7 @@ export default function Homepage() {
                 </div>
             </div>
             <Projects />
-            <Contact />
+
         </div>
         
     )
