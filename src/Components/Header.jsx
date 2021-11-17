@@ -4,7 +4,7 @@ export default function Header() {
         <div className="header-div">
             <header className="header">
                 <nav className="nav-bar">
-                    <h4><a className="name" href="/">Shevon Denny | Fullstack Developer </a></h4> 
+                    <h4><a className="name" href="/">Shevon Denny </a></h4> 
                     <ul className="nav-nav"> 
                         <li><a className="nav-links" href="/">Home</a></li>
                         <li><a className="nav-links" href="/about">About Me</a></li>

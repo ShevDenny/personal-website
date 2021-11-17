@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Estonia&display=swap');
+
+
 
 :root {
   --font-family: "Roboto", sans-serf;
@@ -5,7 +8,7 @@
   --bold-font: 700;
   --bolder-font: 900;
   --bg-color: rgba(248, 234, 217, 0.548);
-  --primary-color: #68311b;
+  --primary-color: #68311bc7;
   --secondary-color: white;
   --primary-shadow: #c7b085;
   --secondary-shadow: #a17a69;
@@ -86,6 +89,9 @@ ul {
 
 .name {
   color: var(--primary-color);
+  font-family: 'Dancing Script', cursive;
+  font-weight: var(--bolder-font);
+  font-size: 2rem;
 }
 
 
