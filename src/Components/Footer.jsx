@@ -1,12 +1,12 @@
 export default function Footer() {
 
-    function handleScroll(){
-        window.scrollTo({
-            top: 0,
-            left: 0,
-            behavior: "smooth"
-        })
-    }
+    // function handleScroll(){
+    //     window.scrollTo({
+    //         top: 0,
+    //         left: 0,
+    //         behavior: "smooth"
+    //     })
+    // }
     
     return (
         <div className="footer">
