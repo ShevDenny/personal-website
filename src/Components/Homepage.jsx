@@ -1,12 +1,12 @@
 import Projects from './Projects';
-import aboutme from '../photos/aboutme.jpeg';
+import headshot from '../photos/headshot.jpeg';
 
 export default function Homepage() {
 
     return (
         <div>
             <div className="homepage">
-                <img className="home-pic" src={aboutme} alt="profile-pic" loading="lazy"
+                <img className="home-pic" src={headshot} alt="profile-pic" loading="lazy"
                 />
                 <div className="home-info">
                     <p className="brief-about">Hi and welcome! I'm a Full-Stack software engineer exerienced with JavaScript, React, Ruby, Ruby on Rails, Python, Node.js, HTML, CSS, SQLite and Postgresql. 
