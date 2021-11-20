@@ -43,7 +43,7 @@ export default function Portfolio(){
                 <div className="project-demo">
                     <iframe 
                         className="project" 
-                        src="https://www.loom.com/embed/e23d78807a7743829b28410f8310471b" 
+                        src="https://www.loom.com/embed/c7e74a467a3c4ec0bcd80f0f234cdf54" 
                         width="540" 
                         height="450"
                         loading="lazy">
