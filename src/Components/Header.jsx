@@ -1,4 +1,10 @@
+import { useState } from 'react';
+
 export default function Header() {
+    const[showMenu, setShowMenu] = useState(false)
+
+    
+
 
     return (
         <div className="header-div">
@@ -10,8 +16,11 @@ export default function Header() {
                         <li><a className="nav-links" href="/about">About Me</a></li>
                         <li><a className="nav-links" href="/portfolio">Portfolio</a></li>
                     </ul>
-                    <button className="burger-menu" id="burger-menu">
-                        <div className="container" onclick="myFunction(this)">
+                    <button 
+                        className="burger-menu" 
+                        id="burger-menu"
+                        onClick={() => setShowMenu(!showMenu)}>
+                        <div className="container" >
                             <div className="bar1"></div>
                             <div className="bar2"></div>
                             <div className="bar3"></div>

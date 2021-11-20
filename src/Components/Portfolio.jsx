@@ -15,8 +15,8 @@ export default function Portfolio(){
                         loading="lazy">
                     </iframe>
                 </div>
-                <p>Your hairstlye can be used as a form of expression and it's important to find a Salon that suits you and your hair needs!
-                </p>
+                {/* <p>Your hairstlye can be used as a form of expression and it's important to find a Salon that suits you and your hair needs!
+                </p> */}
                 
             </div>
 
@@ -32,8 +32,8 @@ export default function Portfolio(){
                         loading="lazy">
                     </iframe>
                 </div>
-                <p>The pandemic has been way too long and we missed our friends! After not seeing one another for so long, "Let's Hang!". 
-                </p>
+                {/* <p>The pandemic has been way too long and we missed our friends! After not seeing one another for so long, "Let's Hang!". 
+                </p> */}
 
             </div>
 
@@ -49,7 +49,7 @@ export default function Portfolio(){
                         loading="lazy">
                     </iframe>
                 </div>
-                <p>View upcoming exhibitions at selected galleries.</p>
+                {/* <p>View upcoming exhibitions at selected galleries.</p> */}
                 
             </div>
         </div>
