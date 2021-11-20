@@ -60,7 +60,7 @@
   }
 
   .homepage img {
-    height: 37.5rem;
+    height: 34.5rem;
     width: 30rem;
   }
 
@@ -89,7 +89,7 @@
 
 @media screen and (max-width: 420px) {
   .homepage img {
-    height: 37.5rem;
+    height: 32.5rem;
     width: 23rem;
   }
 

@@ -13,7 +13,7 @@ export default function Header() {
                     <h4><a className="name" href="/">Shevon Denny </a></h4> 
                     <ul className="nav-nav"> 
                         <li><a className="nav-links" href="/">Home</a></li>
-                        <li><a className="nav-links" href="/about">About Me</a></li>
+                        <li><a className="nav-links" href="/about">About</a></li>
                         <li><a className="nav-links" href="/portfolio">Portfolio</a></li>
                     </ul>
                     <button 
