@@ -73,6 +73,10 @@
     width: 5.875rem;
     height: 5.25rem;
   }
+
+  .projects-slide {
+    width: 20.875rem;
+  }
   .contact-form-container {
     max-width: 23.75rem;
   }
