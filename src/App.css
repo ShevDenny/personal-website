@@ -29,7 +29,7 @@
     padding: 1.5rem 1rem;
   }
 
-  nav ul {
+  /* nav ul {
     position: fixed;
     background-color: var(--bg-color);
     flex-direction: column;
@@ -51,7 +51,7 @@
 
   nav ul.show {
     transform: translateX(0);
-  }
+  } */
 
   .homepage {
     margin-top: -4rem;
