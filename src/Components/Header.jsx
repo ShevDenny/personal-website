@@ -15,6 +15,7 @@ export default function Header() {
                         <li><a className="nav-links" href="/">Home</a></li>
                         <li><a className="nav-links" href="/about">About</a></li>
                         <li><a className="nav-links" href="/portfolio">Portfolio</a></li>
+                        <li><a className="nav-links" href="/resume">Resume</a></li>
                     </ul>
                     <button 
                         className="burger-menu" 
